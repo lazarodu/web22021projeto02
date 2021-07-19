@@ -58,7 +58,7 @@ class Tabela
           "id={$id}"
         );
         if (!$retorno["erro"]) {
-          $form = new Template("view/form.html");
+          $form = new Template("restrict/view/form.html");
           foreach ($retorno["msg"][0] as $key => $value) {
             $form->set($key, $value);
           }

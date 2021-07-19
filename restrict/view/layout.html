@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aula de Web II</title>
-    <link rel="stylesheet" href="view/css/estilo.css" />
+    <link rel="stylesheet" href="restrict/view/css/estilo.css" />
   </head>
   <body>
     <nav>
-      <ul class="container">
-        <li>
-          <a href="?acao=Form">Cadastrar</a>
-        </li>
-        <li>
-          <a href="?acao=Tabela">Listar</a>
-        </li>
-      </ul>
+      <div class="container">
+        <ul>
+          <li>
+            <a href="?acao=Form">Cadastrar</a>
+          </li>
+          <li>
+            <a href="?acao=Tabela">Listar</a>
+          </li>
+        </ul>
+        <ul class="logout">
+          <li>
+            <a href="index.php">{nome}</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <section class="container">
       <h1>Título</h1>

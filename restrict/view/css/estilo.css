@@ -11,24 +11,25 @@ body {
 nav {
   background-color: black;
 }
-nav ul {
+nav div ul {
   display: flex;
   margin: 0;
   padding: 0;
+  width: 50%;
 }
-nav ul li {
+nav div ul li {
   list-style-type: none;
   padding: 10px;
 }
-nav ul li {
+nav div ul li {
   list-style-type: none;
   padding: 10px;
 }
-nav ul li a {
+nav div ul li a {
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover {
+nav div ul li a:hover {
   font-size: 1.1rem;
   font-weight: 800px;
 }
@@ -36,4 +37,12 @@ nav ul li a:hover {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav div {
+  display: flex;
+  flex-direction: row;
+}
+nav div ul.logout {
+  display: flex;
+  justify-content: flex-end;
 }

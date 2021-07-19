@@ -46,6 +46,7 @@ class Aplicacao
         $conteudo = $pagina->controller();
       }
     }
+    $layout->set("nome", Session::getValue("nome"));
     $layout->set("conteudo", $conteudo["msg"]);
     echo $layout->saida();
   }
